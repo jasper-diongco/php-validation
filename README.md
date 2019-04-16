@@ -35,4 +35,15 @@
 ### the input is required
 - required
 
+### the input should be a valid email
 - email
+
+### define minimum length
+- minlen:number
+
+### define maximum length
+- maxlen:number
+
+### inputs should be equal
+- confirm:input_name
+
