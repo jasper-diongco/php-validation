@@ -14,7 +14,7 @@
     "name" => "Jasper",
     "email" => "invalid@email",
     "password" => "123456",
-    "confirm_password" => "123456"
+    "confirm_password" => "12345"
   ];
   $rules = [
     "name" => "required",
@@ -28,3 +28,9 @@
   print_r($errors);
 ```
 - output : Array ( [email] => The field email must be a valid email. [confirm_password] => The password confirmation does not match. )
+
+
+# list of rules
+- required
+the input is required
+- email
