@@ -1,7 +1,7 @@
 # Tutorial
 
 - the validate method will return an array if there is an error
-- if there is no error, the return would be empty array
+- if there is no error, the return would be an empty array
 
 ```php
   $errors = Validation::validate($data, $rules);
