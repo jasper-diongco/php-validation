@@ -31,6 +31,8 @@
 
 
 # list of rules
+
+### the input is required
 - required
-the input is required
+
 - email
